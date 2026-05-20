@@ -1,0 +1,149 @@
+body {
+    /* background-color: #F5F1E1; */
+     background-image: url('/assets/newfoundland-coastline-GettyImages-108273950.jpg'); 
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+    
+     
+}
+
+.aboutMe-container {
+    background-color: rgba(245, 241, 225, 0.7);
+    border: 2px solid #A0C091;
+    margin-top: 200px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.profile-pic {
+    width: 225px;
+    height: 325px;
+    margin-right: 5px;
+}
+
+.noto-serif-header {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-size: 2.5rem;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  color: #2A3027;
+}
+
+.source-sans-3-paragraph {
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 1.25rem;
+  font-weight: 400;
+  font-style: normal;
+  color: #2A3027;
+}
+
+.case-studies-container {
+    align-items: center;
+    width: fit-content;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.case-studies-header-container {
+    background-color: rgba(245, 241, 225, 0.7);
+    border: 2px solid #A0C091;
+    padding: 20px;
+    width: fit-content;
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card {
+  width: 30rem;
+  /*height: 30rem;*/
+  transition: transform .2s; 
+  background-color: rgba(245, 241, 225, 0.7);
+  border: 2px solid #A0C091;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.viewproject-button {
+    background-color: #C2D6B8;
+    color: #2A3027;
+    border: 2px solid #A0C091;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-left: auto;
+    margin-right: auto;
+    width: 27.5rem;
+}
+
+.viewproject-button:hover {
+   background-color: #A0C091;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.coming-soon-container {
+    background-color: rgba(245, 241, 225, 0.7);
+    border: 2px solid #A0C091;
+    margin-top: 200px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contactme-container {
+    background-color: rgba(42, 48, 39, 0.5);
+    border-top: 2px solid #A0C091;
+    margin-top: 200px;
+    width: 100vw;
+    padding: 20px;
+}
+
+.resume-link {
+    font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-size: 2.5rem;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  color: #C2D6B8;
+  text-decoration: none;
+}
+
+.resume-link:hover {
+  color: #A0C091;
+}
+
+
+/*  #F5F1E1  #A0C091  #5B8C5D  #2A3027  #FFFFFF  #C2D6B8
+https://www.figma.com/color-palette-generator/?colors=F5F1E1-5B8C5D-A0C091-C2D6B8-2A3027-FFFFFF  */
