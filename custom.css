@@ -2,7 +2,9 @@ body {
     /* background-color: #F5F1E1; */
      background-image: url('/assets/finn-schurmann-Ab8P2MkwEA0-unsplash.jpg'); 
      /* Photo by Finn Schürmann on Unsplash */
-     background-size: 100% 100%;
+     background-position: center; /* Ensures the image is centered */
+      background-size: cover; /* Scales the image to cover the container */
+     /* background-size: 100% 100%; */
      background-repeat: no-repeat;
     
      
