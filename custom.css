@@ -1,13 +1,9 @@
 body {
-    /* background-color: #F5F1E1; */
      background-image: url('/assets/finn-schurmann-Ab8P2MkwEA0-unsplash.jpg'); 
      /* Photo by Finn Schürmann on Unsplash */
-     background-position: center; /* Ensures the image is centered */
-      background-size: cover; /* Scales the image to cover the container */
-     /* background-size: 100% 100%; */
+     background-position: center;
+     background-size: cover; 
      background-repeat: no-repeat;
-    
-     
 }
 
 .aboutMe-container {
@@ -132,7 +128,7 @@ body {
 }
 
 .resume-link {
-    font-family: "Noto Serif", serif;
+  font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
   font-size: 2.5rem;
   font-weight: 500;
@@ -147,6 +143,3 @@ body {
   color: #A0C091;
 }
 
-
-/*  #F5F1E1  #A0C091  #5B8C5D  #2A3027  #FFFFFF  #C2D6B8
-https://www.figma.com/color-palette-generator/?colors=F5F1E1-5B8C5D-A0C091-C2D6B8-2A3027-FFFFFF  */
